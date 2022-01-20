@@ -5,6 +5,7 @@
   "description": "![Design preview for the Space tourism website coding challenge](./preview.jpg)",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
